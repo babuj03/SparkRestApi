@@ -1,0 +1,6 @@
+uk\revolute\bank\resource\BankAccountResource.class
+uk\revolute\bank\service\RevoluteBankService.class
+uk\revolute\bank\dto\MonenyTransfer.class
+uk\revolute\bank\dto\Account.class
+uk\revolute\bank\dao\RevoluteBankDAO.class
+uk\revolute\bank\domain\Account.class
