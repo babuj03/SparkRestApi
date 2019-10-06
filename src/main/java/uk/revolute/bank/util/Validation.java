@@ -2,7 +2,10 @@ package uk.revolute.bank.util;
 
 import uk.revolute.bank.domain.Account;
 import uk.revolute.bank.exception.ServiceException;
-
+/**
+ * @author JBabu
+ * @Created Date : 04/10/2019
+ */
 public class Validation {
 
     public  static boolean isActive(Account account) throws ServiceException {

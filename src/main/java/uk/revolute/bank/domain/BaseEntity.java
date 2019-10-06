@@ -3,7 +3,10 @@ package uk.revolute.bank.domain;
 import javax.persistence.Entity;
 import javax.persistence.MappedSuperclass;
 import java.time.LocalDateTime;
-
+/**
+ * @author JBabu
+ * @Created Date : 04/10/2019
+ */
 @MappedSuperclass
 public class BaseEntity {
     private LocalDateTime createdDate = LocalDateTime.now();

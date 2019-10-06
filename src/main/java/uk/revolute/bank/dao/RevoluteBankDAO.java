@@ -15,6 +15,10 @@ import java.util.List;
 import javax.persistence.*;
 import javax.sql.rowset.serial.SerialException;
 
+/**
+ * @author JBabu
+ * @Created Date : 04/10/2019
+ */
 public class  RevoluteBankDAO {
     private static final RevoluteBankDAO SINGLE_INSTANCE = new RevoluteBankDAO();
     private static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("REVOLUTE_BANK");

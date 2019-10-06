@@ -18,6 +18,10 @@ import static spark.Spark.get;
 
 import static spark.Spark.*;
 
+/**
+ * @author JBabu
+ * @Created Date : 04/10/2019
+ */
 public class BankAccountResource {
 
     public static void main(String[] args) {
@@ -34,8 +38,7 @@ public class BankAccountResource {
             }
 
             try {
-                 Account account = service.getAccountSummary( Long.parseLong(accountNumberStr));
-                 return account;
+                return service.getAccountSummary( Long.parseLong(accountNumberStr));
             } catch (ServiceException ex) {
                 log.error("Error :"+ex.getMessage());
                 res.status(HttpStatus.INTERNAL_SERVER_ERROR_500);

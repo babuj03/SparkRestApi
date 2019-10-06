@@ -1,5 +1,8 @@
 package uk.revolute.bank.util;
-
+/**
+ * @author JBabu
+ * @Created Date : 04/10/2019
+ */
 public enum ServiceMessage {
   GENERAL_ERROR("Could not able process your request, please try again later"),
   INVALID_ACCOUNT_NUMBER( "Invalid Account Number"),

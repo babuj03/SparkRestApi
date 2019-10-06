@@ -1,5 +1,8 @@
 package uk.revolute.bank.dto;
-
+/**
+ * @author JBabu
+ * @Created Date : 04/10/2019
+ */
 public class MonenyTransfer {
     private Long fromAccountNumber;
     private Long toAccountNumber;

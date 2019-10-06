@@ -3,7 +3,10 @@ package uk.revolute.bank.dto;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-
+/**
+ * @author JBabu
+ * @Created Date : 04/10/2019
+ */
 public class Account {
     private Long accountNumber;
     private String accountHolderName;

@@ -5,7 +5,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.time.LocalDate;
-
+/**
+ * @author JBabu
+ * @Created Date : 04/10/2019
+ */
 @Entity
 public class Account extends  BaseEntity{
 
