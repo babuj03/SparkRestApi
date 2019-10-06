@@ -3,7 +3,7 @@
 
  
 Method 	  	 :   Post
-URL  		 	 :   http://localhost:4567/create/accounts 
+URL  		 	 :   http://localhost:4567/create/account
 Request Body  	 :  {"currentBalace":100.0,"branch":"London","accountHolderName":"Jone", "accountHolderDOB":{"year":1989,"month":01,"day":10}, "active":true }
 
 
