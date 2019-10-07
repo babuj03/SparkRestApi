@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
  */
 public class Account {
     private Long accountNumber;
+    private String accountHolderId;
     private String accountHolderName;
     private LocalDate accountHolderDOB;
     private double currentBalace;
@@ -81,6 +82,14 @@ public class Account {
         this.accountHolderDOB = accountHolderDOB;
     }
 
+    public String getAccountHolderId() {
+        return accountHolderId;
+    }
+
+    public void setAccountHolderId(String accountHolderId) {
+        this.accountHolderId = accountHolderId;
+    }
+
     @Override
     public String toString() {
         return "Account{" +
@@ -88,6 +97,7 @@ public class Account {
                 ", currentBalace=" + currentBalace +
                 ", branch='" + branch + '\'' +
                 ", active=" + active +
+                ", accountHolderId ="+accountHolderId+
                 ", accountHolderName='" + accountHolderName + '\'' +
                 ", accountHolderDOB='" + accountHolderDOB + '\'' +
                 ", createdDate=" + createdDate +
