@@ -1,6 +1,10 @@
 # SparkRestApi
- Money Transfer Rest Api
  
+  Money transfer Rest Api has three end points, which are implemented by using SPARK.
+     1.	Bank Account Creation.
+     2.	Fetch Account by Id.
+     3.	Money Transfer between two Accounts.
+
  <h2>Start the application by running BankAccountResource</h2>
 
  
